@@ -12,7 +12,7 @@ body {
 .img {
     max-width: 100%;
     height: auto;
-    width:300px;
+    width:400px;
     text-align: center;
 }
 .head {
@@ -24,7 +24,7 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .head {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -43,7 +43,7 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .head-1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 }
 
@@ -62,14 +62,14 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     .head-2 {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
     .head-2 {
-        font-size: 18px;
+        font-size: 30px;
     }
 }
 .head-3{
@@ -94,6 +94,9 @@ body {
 }
 .icone-container {
     text-align: center;
+}
+.link {
+    text-decoration: none;
 }
 .youtube {
     width:50px;
