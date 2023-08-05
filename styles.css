@@ -12,7 +12,7 @@ body {
 .img {
     max-width: 100%;
     height: auto;
-    width:300px;
+    width:200px;
     text-align: center;
 }
 .head {
@@ -35,7 +35,7 @@ body {
     color:white;
     font-size:20px;
     text-align: center;
-    padding-top:100px;
+    padding-top:50px;
 }
 .icone-container {
     text-align: center;
