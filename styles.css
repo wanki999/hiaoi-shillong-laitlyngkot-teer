@@ -12,28 +12,28 @@ body {
 .img {
     max-width: 100%;
     height: auto;
-    width:400px;
+    width:300px;
     text-align: center;
 }
 .head {
     color:white;
-    font-size:50px;
+    font-size:30px;
     text-align: center;  
 }
 .head-1 {
     color:white;
-    font-size:40px;
+    font-size:30px;
     text-align: center;
 }
 .head-2 {
     color:white;
-    font-size:40px;
+    font-size:20px;
     text-align: center;
 }
 
 .head-3 {
     color:white;
-    font-size:30px;
+    font-size:20px;
     text-align: center;
     padding-top:100px;
 }
@@ -52,6 +52,6 @@ body {
 }
 .contact-us {
     color:white;
-    font-size:50px;
+    font-size:30px;
     text-align: center;
 }
