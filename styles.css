@@ -12,30 +12,85 @@ body {
 .img {
     max-width: 100%;
     height: auto;
-    width:200px;
+    width:300px;
     text-align: center;
 }
 .head {
-    color:white;
-    font-size:20px;
-    text-align: center;  
-}
-.head-1 {
-    color:white;
-    font-size:35px;
+    font-size: 50px;
     text-align: center;
-}
-.head-2 {
     color:white;
-    font-size:30px;
-    text-align: center;
 }
 
-.head-3 {
-    color:white;
-    font-size:35px;
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .head {
+        font-size: 20px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .head {
+        font-size: 18px;
+    }
+}
+.head-1 {
+    font-size:40px;
     text-align: center;
-    padding-top:30px;
+    color:white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .head-1 {
+        font-size: 20px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .head-1 {
+        font-size: 18px;
+    }
+}
+.head-2 {
+    font-size: 40px;
+    text-align: center;
+    color:white;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .head-2 {
+        font-size: 20px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .head-2 {
+        font-size: 18px;
+    }
+}
+.head-3{
+    font-size: 40px;
+    text-align: center;
+    color:white;
+    padding-top: 30px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .head-3 {
+        font-size: 20px;
+    }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+    .head-3 {
+        font-size: 18px;
+    }
 }
 .icone-container {
     text-align: center;
@@ -52,6 +107,6 @@ body {
 }
 .contact-us {
     color:white;
-    font-size:10px;
+    font-size:50px;
     text-align: center;
 }
