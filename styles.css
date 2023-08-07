@@ -74,15 +74,16 @@ ul li:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  
 }
-
 .mobile-menu {
   display: none;
   position: absolute;
   top: 50px;
   left: 0;
-  height: calc(100vh - 50px);
+  height: calc(22vh - 50px);
   width: 100%;
+  background-color:rgba(2, 68, 2, 0.659); 
 }
 
 .mobile-menu li {
@@ -105,7 +106,7 @@ ul li:hover {
 .img {
   max-width: 100%;
   height: auto;
-  width:200px;
+  width:300px;
   text-align: center;
 }
 .head {
@@ -196,8 +197,11 @@ ul li:hover {
 }
 .youtube {
   width:50px;
+  padding-top: 30px;
 }
-
+.facebook {
+  width:50px;
+}
 .aboutus-container {
   text-align: center;
 }
@@ -215,4 +219,65 @@ ul li:hover {
 .image-container img {
   width: 100%;
   height: auto;
+}
+.head-4{
+  font-size: 30px;
+  color:white;
+  padding-top:10px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .head-4 {
+      font-size: 20px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .head-4 {
+      font-size: 18px;
+  }
+}
+.head-5{
+  font-size: 20px;
+  color:red;
+  padding-top:10px;
+  padding-left: 50px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .head-5 {
+      font-size: 20px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .head-5 {
+      font-size: 18px;
+  }
+}
+.head-6{
+  font-size: 20px;
+  color:white;
+  padding-top:10px;
+  padding-left: 50px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .head-6 {
+      font-size: 20px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .head-6 {
+      font-size: 18px;
+  }
 }
