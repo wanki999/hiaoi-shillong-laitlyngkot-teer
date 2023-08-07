@@ -1,115 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
-    background-color: green;
-    margin:0;
-    padding:0;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header a {
+  text-decoration: none;
 }
 
+header {
+  padding: 0 20px;
+  background-color:rgb(2, 68, 2);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul a {
+  color: white;
+}
+
+ul li {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+ul li:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+#hamburger-icon {
+  margin: auto 0;
+  display: none;
+  cursor: pointer;
+}
+
+#hamburger-icon div {
+  width: 35px;
+  height: 3px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.open .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2 {
+  opacity: 0;
+}
+
+.open .bar3 {
+  -webkit-transform: rotate(45deg) translate(-6px, -8px);
+  transform: rotate(45deg) translate(-6px, -8px);
+}
+
+.open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+
+.mobile-menu li {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+}
 .img-container {
-    text-align: center;
-    padding-top:100px;
+  text-align: center;
+  padding-top:100px;
 }
 .img {
-    max-width: 100%;
-    height: auto;
-    width:300px;
-    text-align: center;
+  max-width: 100%;
+  height: auto;
+  width:400px;
+  text-align: center;
 }
 .head {
-    font-size: 50px;
-    text-align: center;
-    color:white;
+  font-size: 50px;
+  text-align: center;
+  color:white;
+  padding-bottom:30px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .head {
-        font-size: 25px;
-    }
+  .head {
+      font-size: 25px;
+  }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
-    .head {
-        font-size: 18px;
-    }
+  .head {
+      font-size: 18px;
+  }
 }
 .head-1 {
-    font-size:40px;
-    text-align: center;
-    color:white;
+  font-size:40px;
+  text-align: center;
+  color:white;
+  padding-bottom: 30px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .head-1 {
-        font-size: 25px;
-    }
+  .head-1 {
+      font-size: 25px;
+  }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
-    .head-1 {
-        font-size: 18px;
-    }
+  .head-1 {
+      font-size: 18px;
+  }
 }
 .head-2 {
-    font-size: 40px;
-    text-align: center;
-    color:white;
+  font-size: 40px;
+  text-align: center;
+  color:white;
+  padding-bottom: 30px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .head-2 {
-        font-size: 30px;
-    }
+  .head-2 {
+      font-size: 30px;
+  }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
-    .head-2 {
-        font-size: 30px;
-    }
+  .head-2 {
+      font-size: 30px;
+  }
 }
 .head-3{
-    font-size: 40px;
-    text-align: center;
-    color:white;
-    padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+  color:white;
+  padding-top: 30px;
 }
 
 /* Media query for smaller screens */
 @media (max-width: 768px) {
-    .head-3 {
-        font-size: 20px;
-    }
+  .head-3 {
+      font-size: 20px;
+  }
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
-    .head-3 {
-        font-size: 18px;
-    }
+  .head-3 {
+      font-size: 18px;
+  }
 }
 .icone-container {
-    text-align: center;
+  text-align: center;
 }
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .youtube {
-    width:50px;
+  width:50px;
 }
-.facebook {
-    width:50px;
-    padding-left: 30px;
-}
+
 .aboutus-container {
-    text-align: center;
+  text-align: center;
 }
 .contact-us {
-    color:white;
-    font-size:50px;
-    text-align: center;
+  color:white;
+  font-size:50px;
+  text-align: center;
+}
+/* Record */
+.image-container {
+  max-width: 100%;
+}
+
+/* Make the image responsive */
+.image-container img {
+  width: 100%;
+  height: auto;
 }
