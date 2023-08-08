@@ -289,12 +289,14 @@ ul li:hover {
       font-size: 18px;
   }
 }
+/* about us */
 .head-7{
   font-size: 20px;
   color:white;
   padding-top:10px;
   padding-left: 200px;
   padding-right: 200px;
+  text-align: center;
 }
 
 /* Media query for smaller screens */
