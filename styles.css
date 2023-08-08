@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -220,7 +221,12 @@ ul li:hover {
 .image-container img {
   width: 100%;
   height:auto;
-  
+}
+.record {
+  padding-left: 100px;
+  padding-right:100px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .head-4{
   font-size: 30px;
@@ -280,6 +286,27 @@ ul li:hover {
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
   .head-6 {
+      font-size: 18px;
+  }
+}
+.head-7{
+  font-size: 20px;
+  color:white;
+  padding-top:10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .head-7 {
+      font-size: 20px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .head-7 {
       font-size: 18px;
   }
 }
