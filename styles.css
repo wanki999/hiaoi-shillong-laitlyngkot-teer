@@ -82,7 +82,7 @@ ul li:hover {
   position: absolute;
   top: 50px;
   left: 0;
-  height: calc(22vh - 50px);
+  height: calc(22vh - 30px);
   width: 100%;
   background-color:rgba(2, 68, 2, 0.659); 
 }
@@ -108,7 +108,7 @@ ul li:hover {
 .img {
   max-width: 100%;
   height: auto;
-  width:300px;
+  width:200px;
   text-align: center;
 }
 .head {
@@ -216,6 +216,27 @@ ul li:hover {
 .image-container {
   max-width: 100%;
 }
+.head-r{
+  font-size: 30px;
+  color:white;
+  padding-top:60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .head-r {
+      font-size: 20px;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .head-r {
+      font-size: 18px;
+  }
+}
 
 /* Make the image responsive */
 .image-container img {
@@ -311,4 +332,25 @@ ul li:hover {
   .head-7 {
       font-size: 18px;
   }
+}
+/* button */
+.container-button {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+  text-decoration: none;
+}
+.btn {
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  border:none;
+  font-weight: bold;
+  color:green;
+  outline: none;
+}
+.btn:hover {
+  background-color:black;
+  cursor: pointer;
 }
